@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+/* Estilos adicionales para el task manager */
+.task-card {
+  transition: all 0.2s ease-in-out;
+}
+
+.task-card:hover {
+  transform: translateY(-2px);
+}
+
+.completed-task {
+  opacity: 0.7;
+}
+
+.completed-task .task-title {
+  text-decoration: line-through;
+}
